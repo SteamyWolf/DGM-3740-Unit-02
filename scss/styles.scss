@@ -1,12 +1,12 @@
-$menuColor: #1D65A6;
-$secondaryColor: #72A2C0;
+$menuColor: #1d65a6;
+$secondaryColor: #72a2c0;
 @import "reset";
 @import "mobilemenu";
 @import "largeNav";
 @import "small-default";
 @media only screen and (min-width: 35em) {
-@import "medium";
+  @import "medium";
 }
 @media only screen and (min-width: 60rem) {
-@import "large";
+  @import "large";
 }

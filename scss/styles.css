@@ -343,7 +343,7 @@ template {
     width: 50%;
     height: 2.75rem;
     background-image: url("../images/menuOpenWhite.png");
-    background-color: #1D65A6;
+    background-color: #1d65a6;
     background-position: 2vw center;
     background-repeat: no-repeat;
     border: 0 none;
@@ -423,14 +423,14 @@ template {
 
   #primaryNav li ul li {
     list-style-type: none;
-    background-color: #72A2C0; }
+    background-color: #72a2c0; }
 
   #primaryNav li:hover ul {
     display: block; } }
 /* End Mobile Styles */
 /*  ----------------------- NAVIGATION --------------------------- */
 nav {
-  background-color: #1D65A6;
+  background-color: #1d65a6;
   width: 100%;
   margin: auto; }
   nav ul li#searchBar {
@@ -452,9 +452,9 @@ nav {
       margin-right: 3px;
       cursor: pointer;
       border-radius: 0px 5px 5px 0px;
-      background-color: #72A2C0; }
+      background-color: #72a2c0; }
   nav ul#primaryNav {
-    background-color: #1D65A6;
+    background-color: #1d65a6;
     max-width: 600px;
     height: 45px;
     width: 50%;
@@ -712,10 +712,10 @@ a.imgSelect {
   font-weight: 600;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #72A2C0; }
+  background-color: #72a2c0; }
 
 .blogFoot {
-  background-color: #72A2C0;
+  background-color: #72a2c0;
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
@@ -731,7 +731,7 @@ a.imgSelect {
   width: 100%;
   height: 100%;
   transition: opacity 0.5s;
-  background-color: #72A2C0;
+  background-color: #72a2c0;
   opacity: 0.75;
   position: absolute; }
 
@@ -754,7 +754,7 @@ div.sec4 article.membCol a {
 
 footer {
   bottom: 0;
-  background-color: #72A2C0; }
+  background-color: #72a2c0; }
   footer article p {
     padding: 0; }
   footer .news form {
