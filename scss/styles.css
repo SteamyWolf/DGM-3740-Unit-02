@@ -948,6 +948,10 @@ footer {
       grid-area: three; }
     footer div.theirInfo article.phone {
       grid-area: four; }
+      footer div.theirInfo article.phone p a {
+        color: #353a38; }
+      footer div.theirInfo article.phone p a:hover {
+        color: darkslateblue; }
     footer div.theirInfo article.hours {
       grid-area: five; }
   footer div.myInfo p {
