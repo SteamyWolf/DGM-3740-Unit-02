@@ -40,6 +40,14 @@ footer {
         }
         article.contact {
             grid-area: one;
+            p {
+                a {
+                    color: rgb(53, 58, 56);
+                }
+                a:hover {
+                    color: darkslateblue;
+                }
+            }
         }
         article.news {
             grid-area: two;

@@ -509,6 +509,9 @@ nav {
   nav li.active a {
     background-color: rgba(0, 0, 0, 0.25); }
 
+html {
+  font-family: 'Arvo', serif; }
+
 header {
   position: relative;
   display: flex; }
@@ -935,6 +938,10 @@ footer {
       padding: .25rem; }
     footer div.theirInfo article.contact {
       grid-area: one; }
+      footer div.theirInfo article.contact p a {
+        color: #353a38; }
+      footer div.theirInfo article.contact p a:hover {
+        color: darkslateblue; }
     footer div.theirInfo article.news {
       grid-area: two; }
     footer div.theirInfo article.why {
