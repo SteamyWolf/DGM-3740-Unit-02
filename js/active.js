@@ -9,5 +9,6 @@ links.forEach(link => {
     console.log(split[0])
     if (split[0] == location) {
         console.log('found')
+        //Test
     }
 })
