@@ -319,6 +319,9 @@ template {
   body {
     padding-top: 50px; }
 
+  .bodyDiv.openBody {
+    margin-top: 58px; }
+
   nav {
     position: absolute;
     top: 0;
@@ -390,7 +393,9 @@ template {
 
   /* Toggle the navigation bar to expand down  */
   #primaryNav.open {
-    height: auto; }
+    height: auto;
+    display: flex;
+    flex-direction: column; }
 
   #primaryNav.closed {
     height: 0; }
@@ -757,9 +762,18 @@ div.sec4 article.membCol a {
 
 footer {
   bottom: 0;
-  background-color: #72a2c0; }
+  background-color: #72a2c0;
+  padding: 5px 10px; }
   footer article p {
     padding: 0; }
+  footer article.contact p a {
+    color: #353a38; }
+  footer article.contact p a:hover {
+    color: darkslateblue; }
+  footer article.phone p a {
+    color: #353a38; }
+  footer article.phone p a:hover {
+    color: darkslateblue; }
   footer .news form {
     width: 100%; }
     footer .news form input {
@@ -938,20 +952,12 @@ footer {
       padding: .25rem; }
     footer div.theirInfo article.contact {
       grid-area: one; }
-      footer div.theirInfo article.contact p a {
-        color: #353a38; }
-      footer div.theirInfo article.contact p a:hover {
-        color: darkslateblue; }
     footer div.theirInfo article.news {
       grid-area: two; }
     footer div.theirInfo article.why {
       grid-area: three; }
     footer div.theirInfo article.phone {
       grid-area: four; }
-      footer div.theirInfo article.phone p a {
-        color: #353a38; }
-      footer div.theirInfo article.phone p a:hover {
-        color: darkslateblue; }
     footer div.theirInfo article.hours {
       grid-area: five; }
   footer div.myInfo p {

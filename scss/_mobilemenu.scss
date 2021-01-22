@@ -6,7 +6,13 @@
 @media only screen and (max-width: 64rem) {
 
 /* Navigation Button  -------------------------------------------------------- */
-    body { padding-top: 50px; }
+    body { 
+		padding-top: 50px; 
+	}
+
+	.bodyDiv.openBody {
+		margin-top: 58px;
+	}
     
     nav {
         position: absolute;
@@ -84,11 +90,19 @@
 	}
 
 	/* Toggle the navigation bar to expand down  */
-	#primaryNav.open {height: auto;}
-	#primaryNav.closed{height:0;}
+	#primaryNav.open {
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	#primaryNav.closed{
+		height:0;
+	}
 
 	/* Submenus – optional .parent class indicates dropdowns */
-	#primaryNav > li:hover > a {background: rgba(0,0,0,.5);}
+	#primaryNav > li:hover > a {
+		background: rgba(0,0,0,.5);
+	}
 	#primaryNav li.parent > a:after {
         font-size: .75rem;
 		content: "\25BC";

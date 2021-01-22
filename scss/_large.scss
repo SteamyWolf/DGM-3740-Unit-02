@@ -40,14 +40,7 @@ footer {
         }
         article.contact {
             grid-area: one;
-            p {
-                a {
-                    color: rgb(53, 58, 56);
-                }
-                a:hover {
-                    color: darkslateblue;
-                }
-            }
+            
         }
         article.news {
             grid-area: two;
@@ -57,14 +50,6 @@ footer {
         }
         article.phone {
             grid-area: four;
-            p {
-                a {
-                    color: rgb(53, 58, 56);
-                }
-                a:hover {
-                    color: darkslateblue;
-                }
-            }
         }
         article.hours {
             grid-area: five;

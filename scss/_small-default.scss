@@ -256,8 +256,29 @@ div.sec4 article.membCol a {
 footer {
   bottom: 0;
   background-color: $secondaryColor;
+  padding: 5px 10px;
   article p {
     padding: 0;
+  }
+  article.contact {
+    p {
+      a {
+          color: rgb(53, 58, 56);
+      }
+      a:hover {
+          color: darkslateblue;
+      }
+    }
+  }
+  article.phone {
+    p {
+      a {
+          color: rgb(53, 58, 56);
+      }
+      a:hover {
+          color: darkslateblue;
+      }
+    }
   }
   .news form {
     width: 100%;
