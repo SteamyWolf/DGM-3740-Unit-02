@@ -34,8 +34,8 @@
           <a href="./_cruises.php">CRUISES</a>
         </li>
         <li>
-          <a href="#">AGENTS</a>
-          <ul>
+          <a id="mainAgentLink" href="#">AGENTS</a>
+          <ul id="agentNav">
             <li><a href="./_agent1.php">Agent 1</a></li>
             <li><a href="./_agent2.php">Agent 2</a></li>
           </ul>
