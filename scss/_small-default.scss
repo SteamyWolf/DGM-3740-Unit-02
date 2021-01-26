@@ -3,7 +3,7 @@ html {
 }
 
 .active {
-  color: red;
+  color: lightblue !important;
 }
 
 header {
@@ -379,4 +379,37 @@ footer {
   padding: 0px 10px;
 }
 
+
+//-----BOOKINGS-----//
+.main-bookings {
+  padding: 0px 10px;
+  max-width: 450px;
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+  }
+}
+
+.label-bookings {
+  display: flex;
+  flex-direction: column;
+  font-style: italic;
+  padding-bottom: 20px;
+  input {
+    height: 35px;
+  }
+  select {
+    height: 35px;
+  }
+}
+
+
+
+#default {
+  font-style: italic;
+}
 
