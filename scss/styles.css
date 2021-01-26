@@ -811,6 +811,36 @@ footer {
     footer div.myInfo p {
       text-align: center; }
 
+.main-cruises {
+  padding: 0px 5px; }
+  .main-cruises .cruise-content {
+    width: 100%; }
+    .main-cruises .cruise-content .first-cruise {
+      margin: 30px 0px; }
+      .main-cruises .cruise-content .first-cruise img {
+        width: 100%; }
+    .main-cruises .cruise-content .second-cruise {
+      margin: 30px 0px; }
+      .main-cruises .cruise-content .second-cruise img {
+        width: 100%; }
+    .main-cruises .cruise-content .third-cruise {
+      margin: 30px 0px; }
+      .main-cruises .cruise-content .third-cruise img {
+        width: 100%; }
+
+.read-more {
+  width: 100%;
+  border-radius: 10px;
+  height: 30px;
+  background-color: blanchedalmond;
+  border: 1px solid black; }
+
+.agent-img {
+  width: 100%; }
+
+.main-agent {
+  padding: 0px 10px; }
+
 @media only screen and (min-width: 35em) {
   nav ul li ul {
     /*rules for the sub menu items*/
@@ -895,7 +925,34 @@ footer {
     footer div.theirInfo article.hours {
       grid-area: four; }
   footer ul.social li a {
-    font-size: 2.5rem; } }
+    font-size: 2.5rem; }
+
+  .main-cruises {
+    max-width: 1200px;
+    margin: 0 auto; }
+    .main-cruises .cruise-content .first-cruise {
+      display: flex; }
+      .main-cruises .cruise-content .first-cruise img {
+        width: 40%; }
+    .main-cruises .cruise-content .second-cruise {
+      display: flex; }
+      .main-cruises .cruise-content .second-cruise img {
+        width: 40%; }
+    .main-cruises .cruise-content .third-cruise {
+      display: flex; }
+      .main-cruises .cruise-content .third-cruise img {
+        width: 40%; }
+
+  .read-more {
+    width: 30%;
+    float: right; }
+
+  .include-button-content {
+    padding-left: 10px; }
+
+  .agent-img {
+    width: 50%;
+    float: right; } }
 @media only screen and (min-width: 60rem) {
   body header {
     max-width: 75rem;

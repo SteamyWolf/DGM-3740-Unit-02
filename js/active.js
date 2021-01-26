@@ -1,5 +1,4 @@
 let loc = location.href;
-console.log(location)
 let agentLinks = document.querySelectorAll('ul#agentNav li a')
 let links = document.querySelectorAll('ul#primaryNav li a');
 let mainAgentLink = document.querySelector('a#mainAgentLink')
