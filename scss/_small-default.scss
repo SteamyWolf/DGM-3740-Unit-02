@@ -337,21 +337,15 @@ footer {
   padding: 0px 5px;
   .cruise-content {
     width: 100%;
-    .first-cruise {
+    .cruise {
       margin: 30px 0px;
-      img {
+      .img-div {
         width: 100%;
+        img {
+          width: 100%;
+        }
       }
-    }
-    .second-cruise {
-      margin: 30px 0px;
-      img {
-        width: 100%;
-      }
-    }
-    .third-cruise {
-      margin: 30px 0px;
-      img {
+      .include-button-content {
         width: 100%;
       }
     }

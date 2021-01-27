@@ -81,30 +81,27 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     .cruise-content {
-        .first-cruise {
-            display: flex;
-            img {
-                width: 40%;
-            }
+      width: 100%;
+      .cruise {
+        display: flex;
+        align-items: center;
+        .img-div {
+          width: 40%;
+          img {
+            width: 100%;
+          }
         }
-        .second-cruise {
-            display: flex;
-            img {
-                width: 40%;
-            }
+        .include-button-content {
+          width: 60%;
         }
-        .third-cruise {
-            display: flex;
-            img {
-                width: 40%;
-            }
-        }
+      }
     }
-}
+  }
 
 .read-more {
     width: 30%;
     float: right;
+    font-size: .9rem;
 }
 
 .include-button-content {

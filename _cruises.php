@@ -5,8 +5,10 @@
         <h2>Cruises</h2>
     </div>
     <div class="cruise-content">
-        <div class="first-cruise">
-            <img src="./images/alaska-cruise.jpg" alt="alaska cruise">
+        <div class="cruise">
+            <div class="img-div">
+                <img src="./images/alaska-cruise.jpg" alt="alaska cruise">
+            </div>
             <div class="include-button-content">
                 <div class="cruise-text">
                     <h3>Top Alaskan destinations for only $599</h3>
@@ -21,8 +23,10 @@
             
             
         </div>
-        <div class="second-cruise">
-            <img src="./images/mexico-cruise.jpg" alt="mexico cruise">
+        <div class="cruise">
+            <div class="img-div">
+                <img src="./images/mexico-cruise.jpg" alt="mexico cruise">
+            </div>
             <div class="include-button-content">
                 <div class="cruise-text">
                     <h3>The hot sands and tropical beaches of Mexico for only $499</h3>
@@ -35,8 +39,10 @@
                 <button class="read-more">Read More</button>
             </div>
         </div>
-        <div class="third-cruise">
-            <img src="./images/caribbean-cruise.jpg" alt="caribbean cruise">
+        <div class="cruise">
+            <div class="img-div">
+                <img src="./images/caribbean-cruise.jpg" alt="caribbean cruise">
+            </div>
             <div class="include-button-content">
                 <div class="cruise-text">
                     <h3>Explore the diverse islands of the Caribbean for only $699</h3>

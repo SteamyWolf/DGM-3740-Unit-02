@@ -815,17 +815,13 @@ footer {
   padding: 0px 5px; }
   .main-cruises .cruise-content {
     width: 100%; }
-    .main-cruises .cruise-content .first-cruise {
+    .main-cruises .cruise-content .cruise {
       margin: 30px 0px; }
-      .main-cruises .cruise-content .first-cruise img {
+      .main-cruises .cruise-content .cruise .img-div {
         width: 100%; }
-    .main-cruises .cruise-content .second-cruise {
-      margin: 30px 0px; }
-      .main-cruises .cruise-content .second-cruise img {
-        width: 100%; }
-    .main-cruises .cruise-content .third-cruise {
-      margin: 30px 0px; }
-      .main-cruises .cruise-content .third-cruise img {
+        .main-cruises .cruise-content .cruise .img-div img {
+          width: 100%; }
+      .main-cruises .cruise-content .cruise .include-button-content {
         width: 100%; }
 
 .read-more {
@@ -954,22 +950,22 @@ footer {
   .main-cruises {
     max-width: 1200px;
     margin: 0 auto; }
-    .main-cruises .cruise-content .first-cruise {
-      display: flex; }
-      .main-cruises .cruise-content .first-cruise img {
-        width: 40%; }
-    .main-cruises .cruise-content .second-cruise {
-      display: flex; }
-      .main-cruises .cruise-content .second-cruise img {
-        width: 40%; }
-    .main-cruises .cruise-content .third-cruise {
-      display: flex; }
-      .main-cruises .cruise-content .third-cruise img {
-        width: 40%; }
+    .main-cruises .cruise-content {
+      width: 100%; }
+      .main-cruises .cruise-content .cruise {
+        display: flex;
+        align-items: center; }
+        .main-cruises .cruise-content .cruise .img-div {
+          width: 40%; }
+          .main-cruises .cruise-content .cruise .img-div img {
+            width: 100%; }
+        .main-cruises .cruise-content .cruise .include-button-content {
+          width: 60%; }
 
   .read-more {
     width: 30%;
-    float: right; }
+    float: right;
+    font-size: .9rem; }
 
   .include-button-content {
     padding-left: 10px; }
@@ -1049,6 +1045,21 @@ footer {
     footer div.theirInfo article.hours {
       grid-area: five; }
   footer div.myInfo p {
-    text-align: center; } }
+    text-align: center; }
+
+  .main-cruises {
+    max-width: 1200px;
+    margin: 0 auto; }
+    .main-cruises .cruise-content {
+      width: 100%; }
+      .main-cruises .cruise-content .cruise {
+        display: flex;
+        align-items: flex-start; }
+        .main-cruises .cruise-content .cruise .img-div {
+          width: 40%; }
+          .main-cruises .cruise-content .cruise .img-div img {
+            width: 100%; }
+        .main-cruises .cruise-content .cruise .include-button-content {
+          width: 60%; } }
 
 /*# sourceMappingURL=styles.css.map */

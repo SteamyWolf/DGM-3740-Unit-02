@@ -61,3 +61,25 @@ footer {
         }
     }
 }
+
+//Cruises//
+.main-cruises {
+    max-width: 1200px;
+    margin: 0 auto;
+    .cruise-content {
+      width: 100%;
+      .cruise {
+        display: flex;
+        align-items: flex-start;
+        .img-div {
+          width: 40%;
+          img {
+            width: 100%;
+          }
+        }
+        .include-button-content {
+          width: 60%;
+        }
+      }
+    }
+  }
