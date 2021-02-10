@@ -41,6 +41,7 @@
           </ul>
         </li>
         <li><a href="_bookings.php">BOOK</a></li>
+        <li><a href="_aboutUs.php">ABOUT US</a></li> 
       </ul>
       <ul id="secondaryNav">
         <li id="searchBar">
