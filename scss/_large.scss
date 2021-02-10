@@ -14,17 +14,13 @@ main{
             margin-left: 5%;
         }
 
-        @for $i from 1 through 12 {
-            $w: ($i / 12) * 100%;
-            .large-#{$i} {
-                width: $w; 
-                float: left;
-            }
-        }
-
-        
-
-
+}
+@for $i from 1 through 12 {
+    $w: ($i / 12) * 100%;
+    .large-#{$i} {
+        width: $w; 
+        float: left;
+    }
 }
 
 footer {
@@ -87,11 +83,9 @@ footer {
 
   //---ABOUT US----//
 .about-us-main {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
     .column-main {
-        width: 50%;
+        width: 100%;
         padding: 10px;
         display: flex;
         .vertical-line-large {
@@ -117,5 +111,15 @@ footer {
             height: 620px;
             margin-top: 40px;
         }
+    }
+}
+
+//---GALLERY---//
+.h1-gallery {
+    padding-left: 24px;
+  }
+.galleryflex {
+    figure {
+        flex-basis: 25%;
     }
 }

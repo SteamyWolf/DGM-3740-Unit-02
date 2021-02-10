@@ -31,13 +31,7 @@ main {
 
 /*----- Column Layout -----*/
 
-            @for $i from 1 through 12 {
-                $w: ($i / 12) * 100%;
-                .medium-#{$i} {
-                    width: $w; 
-                    float: left;
-                }
-            }
+            
 
 
             div.sec2 {
@@ -45,6 +39,13 @@ main {
                 margin-right: 0;
             }
 
+}
+@for $i from 1 through 12 {
+    $w: ($i / 12) * 100%;
+    .medium-#{$i} {
+        width: $w; 
+        float: left;
+    }
 }
 
 	footer {
@@ -145,5 +146,13 @@ main {
             height: 620px;
              margin-top: 40px;
         }
+    }
+}
+
+
+//---GALLERY---//
+.galleryflex {
+    figure {
+        flex-basis: 33.3%;
     }
 }

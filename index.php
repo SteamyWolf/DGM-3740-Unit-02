@@ -1,7 +1,7 @@
 <?php $pTitle='Home'; include '_header.php'; ?>
 
   <div class="bodyDiv">
-    <main>
+
       <div class="myslider">
         <picture>
           <source srcset="sliders/Cruise01h.jpg" media="(min-width: 35rem)" />
@@ -80,7 +80,7 @@
         </div>
         <!-- end row-->
       </div>
-    </main>
+   
   </div>
 <?php include '_footer.php'; ?>
   

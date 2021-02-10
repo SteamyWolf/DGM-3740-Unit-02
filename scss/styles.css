@@ -573,9 +573,23 @@ article.membCol {
   max-width: 75rem;
   margin: auto; }
 
+.gallery div img {
+  width: 100%; }
+
+.galleryflex {
+  display: flex;
+  flex-wrap: wrap; }
+  .galleryflex figure {
+    flex-basis: 50%;
+    margin: 0;
+    padding: .5rem 2%; }
+  .galleryflex img {
+    width: 100%; }
+
 /*----- Column Layout -----*/
 .row {
-  clear: both; }
+  clear: both;
+  overflow: auto; }
 
 .column {
   padding: 0.5rem 1%; }
@@ -861,6 +875,9 @@ footer {
 #default {
   font-style: italic; }
 
+.h1-gallery {
+  padding-left: 10px; }
+
 @media only screen and (min-width: 35em) {
   nav ul li ul {
     /*rules for the sub menu items*/
@@ -889,45 +906,57 @@ footer {
       column-gap: 2%;
       -webkit-column-gap: 2%;
       -moz-column-gap: 2%; }
-    main .medium-1 {
-      width: 8.3333333333%;
-      float: left; }
-    main .medium-2 {
-      width: 16.6666666667%;
-      float: left; }
-    main .medium-3 {
-      width: 25%;
-      float: left; }
-    main .medium-4 {
-      width: 33.3333333333%;
-      float: left; }
-    main .medium-5 {
-      width: 41.6666666667%;
-      float: left; }
-    main .medium-6 {
-      width: 50%;
-      float: left; }
-    main .medium-7 {
-      width: 58.3333333333%;
-      float: left; }
-    main .medium-8 {
-      width: 66.6666666667%;
-      float: left; }
-    main .medium-9 {
-      width: 75%;
-      float: left; }
-    main .medium-10 {
-      width: 83.3333333333%;
-      float: left; }
-    main .medium-11 {
-      width: 91.6666666667%;
-      float: left; }
-    main .medium-12 {
-      width: 100%;
-      float: left; }
     main div.sec2 {
       padding-left: 0px;
       margin-right: 0; }
+
+  .medium-1 {
+    width: 8.3333333333%;
+    float: left; }
+
+  .medium-2 {
+    width: 16.6666666667%;
+    float: left; }
+
+  .medium-3 {
+    width: 25%;
+    float: left; }
+
+  .medium-4 {
+    width: 33.3333333333%;
+    float: left; }
+
+  .medium-5 {
+    width: 41.6666666667%;
+    float: left; }
+
+  .medium-6 {
+    width: 50%;
+    float: left; }
+
+  .medium-7 {
+    width: 58.3333333333%;
+    float: left; }
+
+  .medium-8 {
+    width: 66.6666666667%;
+    float: left; }
+
+  .medium-9 {
+    width: 75%;
+    float: left; }
+
+  .medium-10 {
+    width: 83.3333333333%;
+    float: left; }
+
+  .medium-11 {
+    width: 91.6666666667%;
+    float: left; }
+
+  .medium-12 {
+    width: 100%;
+    float: left; }
 
   footer div.theirInfo {
     display: grid;
@@ -997,7 +1026,10 @@ footer {
         border-left: 1px solid black;
         padding-right: 10px;
         height: 620px;
-        margin-top: 40px; } }
+        margin-top: 40px; }
+
+  .galleryflex figure {
+    flex-basis: 33.3%; } }
 @media only screen and (min-width: 60rem) {
   body header {
     max-width: 75rem;
@@ -1009,42 +1041,54 @@ footer {
     main div.perfWrap {
       margin-right: -13%;
       margin-left: 5%; }
-    main .large-1 {
-      width: 8.3333333333%;
-      float: left; }
-    main .large-2 {
-      width: 16.6666666667%;
-      float: left; }
-    main .large-3 {
-      width: 25%;
-      float: left; }
-    main .large-4 {
-      width: 33.3333333333%;
-      float: left; }
-    main .large-5 {
-      width: 41.6666666667%;
-      float: left; }
-    main .large-6 {
-      width: 50%;
-      float: left; }
-    main .large-7 {
-      width: 58.3333333333%;
-      float: left; }
-    main .large-8 {
-      width: 66.6666666667%;
-      float: left; }
-    main .large-9 {
-      width: 75%;
-      float: left; }
-    main .large-10 {
-      width: 83.3333333333%;
-      float: left; }
-    main .large-11 {
-      width: 91.6666666667%;
-      float: left; }
-    main .large-12 {
-      width: 100%;
-      float: left; }
+
+  .large-1 {
+    width: 8.3333333333%;
+    float: left; }
+
+  .large-2 {
+    width: 16.6666666667%;
+    float: left; }
+
+  .large-3 {
+    width: 25%;
+    float: left; }
+
+  .large-4 {
+    width: 33.3333333333%;
+    float: left; }
+
+  .large-5 {
+    width: 41.6666666667%;
+    float: left; }
+
+  .large-6 {
+    width: 50%;
+    float: left; }
+
+  .large-7 {
+    width: 58.3333333333%;
+    float: left; }
+
+  .large-8 {
+    width: 66.6666666667%;
+    float: left; }
+
+  .large-9 {
+    width: 75%;
+    float: left; }
+
+  .large-10 {
+    width: 83.3333333333%;
+    float: left; }
+
+  .large-11 {
+    width: 91.6666666667%;
+    float: left; }
+
+  .large-12 {
+    width: 100%;
+    float: left; }
 
   footer div.theirInfo {
     max-width: 1200px;
@@ -1084,11 +1128,9 @@ footer {
           width: 60%; }
 
   .about-us-main {
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex; }
     .about-us-main .column-main {
-      width: 50%;
+      width: 100%;
       padding: 10px;
       display: flex; }
       .about-us-main .column-main .vertical-line-large {
@@ -1109,6 +1151,12 @@ footer {
         border-left: 1px solid black;
         padding-right: 10px;
         height: 620px;
-        margin-top: 40px; } }
+        margin-top: 40px; }
+
+  .h1-gallery {
+    padding-left: 24px; }
+
+  .galleryflex figure {
+    flex-basis: 25%; } }
 
 /*# sourceMappingURL=styles.css.map */

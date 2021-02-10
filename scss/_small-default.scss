@@ -79,10 +79,28 @@ article.membCol {
   margin: auto;
 }
 
+.gallery div img {
+  width: 100%;
+}
+
+.galleryflex {
+  display: flex;
+  flex-wrap: wrap;
+  figure {
+    flex-basis: 50%;
+    margin: 0;
+    padding: .5rem 2%;
+  }
+  img {
+    width: 100%;
+  }
+}
+
 /*----- Column Layout -----*/
 
 .row {
   clear: both;
+  overflow: auto;
 }
 
 .column {
@@ -405,5 +423,10 @@ footer {
 
 #default {
   font-style: italic;
+}
+
+//---GALLERY---//
+.h1-gallery {
+  padding-left: 10px;
 }
 
