@@ -94,6 +94,8 @@
 		height: auto;
 		display: flex;
 		flex-direction: column;
+		align-items: inherit;
+		position: absolute;
 	}
 	#primaryNav.closed{
 		height:0;
@@ -131,7 +133,4 @@
 	}
 	#primaryNav li:hover ul {display: block;}
 
-	// .active {
-	// 	color: lightblue;
-	// }
 } /* End Mobile Styles */

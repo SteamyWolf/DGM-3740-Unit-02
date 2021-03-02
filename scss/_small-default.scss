@@ -6,6 +6,10 @@ html {
   color: lightblue !important;
 }
 
+main {
+  max-width: 1200px;
+}
+
 header {
   position: relative;
   display: flex;
@@ -430,3 +434,20 @@ footer {
   padding-left: 10px;
 }
 
+//---LOCATION---//
+.main-location {
+  .location-text {
+    padding-left: 10px;
+  }
+  .iframe-wrapper {
+    position: relative;
+    padding-top: 56%;
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

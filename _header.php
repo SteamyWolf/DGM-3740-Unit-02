@@ -43,6 +43,7 @@
         <li><a href="_bookings.php">BOOK</a></li>
         <li><a href="_aboutUs.php">ABOUT US</a></li> 
         <li><a href="_gallery.php">GALLERY</a></li> 
+        <li><a href="_location.php">LOCATION</a></li>
       </ul>
       <ul id="secondaryNav">
         <li id="searchBar">
