@@ -451,3 +451,15 @@ footer {
     }
   }
 }
+
+//--SERVICE AREA--//
+.serviceAreaFlex {
+  display: flex;
+  flex-direction: column;
+  figure {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
